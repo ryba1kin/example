@@ -1,0 +1,33 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# idea project files #
+.idea/**
+*.iml
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# write #
+# Example – комментарий из-за #
+.idea/replstate.xml – не отслеживать replstate.xml в папке .idea
+temp/ – не отслеживать папку temp
+.idea/**/dataSources/ – не отслеживать папку dataSources в папке .idea/** - любое множество папок /
